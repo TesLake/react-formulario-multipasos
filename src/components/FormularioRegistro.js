@@ -31,7 +31,7 @@ class FormularioRegistro extends React.Component {
 
   handleKeyDown = event => {
     // Tecla ENTER
-    if (event.keyCode == 13) {
+    if (event.keyCode === 13) {
       this.pasoSiguiente();
     }
   };
